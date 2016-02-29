@@ -1,6 +1,7 @@
 body,#message-thread .incoming, #message-thread .outgoing {
     color: #aaa;
     background-color: #222;
+    line-height: 1.4;
 }
 a,#entry-list a{
     color: #B84C4C; 
