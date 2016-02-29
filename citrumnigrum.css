@@ -3,9 +3,12 @@ body {
     background-color: #222;
 }
 a,#entry-list a{
-color: #B84C4C; 
+    color: #B84C4C; 
 }
-.ads{
+#entry-list footer .other .eksico {
+    fill: #B84C4C;
+}
+.ads,#videos{
     display:none;
 }
 #search-form button[type=submit]{
@@ -56,3 +59,5 @@ button:hover, input[type=submit]:hover, input[type=button]:hover, button:focus, 
 html sup.ab a {
     background-color:black;
 }
+#logo a {
+    background-image: url('http://thedewil.com/eksisozluk_logo.svg');}
