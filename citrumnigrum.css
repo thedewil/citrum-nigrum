@@ -5,6 +5,22 @@ body {
 a,#entry-list a{
 color: #B84C4C; 
 }
+#search-form button[type=submit]{
+background-color: #B84C4C; 
+}
+body>header{
+border-top:none;
+border-bottom: 1px dotted #555;
+}
+#index-section {
+border-right: 1px dotted #555;
+}
+#partial-index{
+margin-right: 5px;
+}
+h1, h2, h3, h4, h5, h6{
+color:#999;
+}
 body.light-theme.theme-disabled>header{
     background-color: #222;
     color: #fff;
@@ -25,7 +41,8 @@ button, input[type=submit], input[type=button], button, input[type=submit], inpu
     background-color: #222;
     color:#ddd;
 }
-button:hover, input[type=submit]:hover, input[type=button]:hover, button:focus, input[type=submit]:focus, input[type=button]:focus{
+button:hover, input[type=submit]:hover, input[type=button]:hover, button:focus, input[type=submit]:focus, input[type=button]:focus,
+{
     background-color: #000;
     color:#bbb;
 }
