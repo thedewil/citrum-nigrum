@@ -1,4 +1,4 @@
-body {
+body,#message-thread .incoming, #message-thread .outgoing {
     color: #aaa;
     background-color: #222;
 }
@@ -18,12 +18,15 @@ body>header{
 border-top:none;
 border-bottom: 1px dotted #555;
 }
+.separated>li{
+border-top: 1px dotted #555;
+}
 #index-section {
 border-right: 1px dotted #555;
 }
 .pager>a,
 .pager select,
-.more-data
+.more-data,#message-thread .incoming, #message-thread .outgoing
 {
 border: 1px dotted #555;
 }
@@ -64,3 +67,12 @@ html sup.ab a {
 }
 #logo a {
     background-image: url('http://thedewil.com/eksisozluk_logo.svg');}
+
+button.primary, input[type=submit].primary, input[type=button].primary{
+    background-color:#B84C4C;
+    border: 1px solid #BA8585
+}
+#sub-navigation>ul>li.active>a {
+    border-color: #B84C4C;
+    text-decoration: none;
+}
