@@ -5,6 +5,9 @@ body {
 a,#entry-list a{
 color: #B84C4C; 
 }
+.ads{
+    display:none;
+}
 #search-form button[type=submit]{
 background-color: #B84C4C; 
 }
@@ -14,6 +17,10 @@ border-bottom: 1px dotted #555;
 }
 #index-section {
 border-right: 1px dotted #555;
+}
+.pager>a,
+.pager select{
+border: 1px dotted #555;
 }
 #partial-index{
 margin-right: 5px;
@@ -45,4 +52,7 @@ button:hover, input[type=submit]:hover, input[type=button]:hover, button:focus, 
 {
     background-color: #000;
     color:#bbb;
+}
+html sup.ab a {
+    background-color:black;
 }
